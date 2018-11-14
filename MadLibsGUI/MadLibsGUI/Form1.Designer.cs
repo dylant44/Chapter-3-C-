@@ -30,20 +30,22 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.btnGenerate = new System.Windows.Forms.Button();
-            this.txt1 = new System.Windows.Forms.TextBox();
-            this.txt2 = new System.Windows.Forms.TextBox();
-            this.txt3 = new System.Windows.Forms.TextBox();
-            this.txt4 = new System.Windows.Forms.TextBox();
-            this.txt5 = new System.Windows.Forms.TextBox();
-            this.txt6 = new System.Windows.Forms.TextBox();
+            this.txtColor = new System.Windows.Forms.TextBox();
+            this.txtWord = new System.Windows.Forms.TextBox();
+            this.txtBody = new System.Windows.Forms.TextBox();
+            this.txtAnimal = new System.Windows.Forms.TextBox();
+            this.txtNoun = new System.Windows.Forms.TextBox();
+            this.txtPlural = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.lblStoryBox = new System.Windows.Forms.Label();
-            this.txt7 = new System.Windows.Forms.TextBox();
+            this.txtNumber = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -57,7 +59,7 @@
             // 
             // btnGenerate
             // 
-            this.btnGenerate.Location = new System.Drawing.Point(462, 83);
+            this.btnGenerate.Location = new System.Drawing.Point(382, 175);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(87, 23);
             this.btnGenerate.TabIndex = 1;
@@ -65,47 +67,47 @@
             this.btnGenerate.UseVisualStyleBackColor = true;
             this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
-            // txt1
+            // txtColor
             // 
-            this.txt1.Location = new System.Drawing.Point(167, 58);
-            this.txt1.Name = "txt1";
-            this.txt1.Size = new System.Drawing.Size(100, 20);
-            this.txt1.TabIndex = 2;
+            this.txtColor.Location = new System.Drawing.Point(167, 58);
+            this.txtColor.Name = "txtColor";
+            this.txtColor.Size = new System.Drawing.Size(100, 20);
+            this.txtColor.TabIndex = 2;
             // 
-            // txt2
+            // txtWord
             // 
-            this.txt2.Location = new System.Drawing.Point(167, 98);
-            this.txt2.Name = "txt2";
-            this.txt2.Size = new System.Drawing.Size(100, 20);
-            this.txt2.TabIndex = 3;
+            this.txtWord.Location = new System.Drawing.Point(167, 98);
+            this.txtWord.Name = "txtWord";
+            this.txtWord.Size = new System.Drawing.Size(100, 20);
+            this.txtWord.TabIndex = 3;
             // 
-            // txt3
+            // txtBody
             // 
-            this.txt3.Location = new System.Drawing.Point(167, 135);
-            this.txt3.Name = "txt3";
-            this.txt3.Size = new System.Drawing.Size(100, 20);
-            this.txt3.TabIndex = 4;
+            this.txtBody.Location = new System.Drawing.Point(167, 135);
+            this.txtBody.Name = "txtBody";
+            this.txtBody.Size = new System.Drawing.Size(100, 20);
+            this.txtBody.TabIndex = 4;
             // 
-            // txt4
+            // txtAnimal
             // 
-            this.txt4.Location = new System.Drawing.Point(167, 172);
-            this.txt4.Name = "txt4";
-            this.txt4.Size = new System.Drawing.Size(100, 20);
-            this.txt4.TabIndex = 5;
+            this.txtAnimal.Location = new System.Drawing.Point(167, 172);
+            this.txtAnimal.Name = "txtAnimal";
+            this.txtAnimal.Size = new System.Drawing.Size(100, 20);
+            this.txtAnimal.TabIndex = 5;
             // 
-            // txt5
+            // txtNoun
             // 
-            this.txt5.Location = new System.Drawing.Point(167, 212);
-            this.txt5.Name = "txt5";
-            this.txt5.Size = new System.Drawing.Size(100, 20);
-            this.txt5.TabIndex = 6;
+            this.txtNoun.Location = new System.Drawing.Point(167, 212);
+            this.txtNoun.Name = "txtNoun";
+            this.txtNoun.Size = new System.Drawing.Size(100, 20);
+            this.txtNoun.TabIndex = 6;
             // 
-            // txt6
+            // txtPlural
             // 
-            this.txt6.Location = new System.Drawing.Point(167, 248);
-            this.txt6.Name = "txt6";
-            this.txt6.Size = new System.Drawing.Size(100, 20);
-            this.txt6.TabIndex = 7;
+            this.txtPlural.Location = new System.Drawing.Point(167, 248);
+            this.txtPlural.Name = "txtPlural";
+            this.txtPlural.Size = new System.Drawing.Size(100, 20);
+            this.txtPlural.TabIndex = 7;
             // 
             // label2
             // 
@@ -155,17 +157,17 @@
             // lblStoryBox
             // 
             this.lblStoryBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblStoryBox.Location = new System.Drawing.Point(426, 147);
+            this.lblStoryBox.Location = new System.Drawing.Point(338, 212);
             this.lblStoryBox.Name = "lblStoryBox";
-            this.lblStoryBox.Size = new System.Drawing.Size(154, 121);
+            this.lblStoryBox.Size = new System.Drawing.Size(166, 121);
             this.lblStoryBox.TabIndex = 13;
             // 
-            // txt7
+            // txtNumber
             // 
-            this.txt7.Location = new System.Drawing.Point(167, 284);
-            this.txt7.Name = "txt7";
-            this.txt7.Size = new System.Drawing.Size(100, 20);
-            this.txt7.TabIndex = 14;
+            this.txtNumber.Location = new System.Drawing.Point(167, 284);
+            this.txtNumber.Name = "txtNumber";
+            this.txtNumber.Size = new System.Drawing.Size(100, 20);
+            this.txtNumber.TabIndex = 14;
             // 
             // label7
             // 
@@ -176,29 +178,40 @@
             this.label7.TabIndex = 15;
             this.label7.Text = "Enter a number";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::MadLibsGUI.Properties.Resources.dragon;
+            this.pictureBox1.Location = new System.Drawing.Point(528, 175);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(260, 193);
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.txt7);
+            this.Controls.Add(this.txtNumber);
             this.Controls.Add(this.lblStoryBox);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txt6);
-            this.Controls.Add(this.txt5);
-            this.Controls.Add(this.txt4);
-            this.Controls.Add(this.txt3);
-            this.Controls.Add(this.txt2);
-            this.Controls.Add(this.txt1);
+            this.Controls.Add(this.txtPlural);
+            this.Controls.Add(this.txtNoun);
+            this.Controls.Add(this.txtAnimal);
+            this.Controls.Add(this.txtBody);
+            this.Controls.Add(this.txtWord);
+            this.Controls.Add(this.txtColor);
             this.Controls.Add(this.btnGenerate);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -208,20 +221,21 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnGenerate;
-        private System.Windows.Forms.TextBox txt1;
-        private System.Windows.Forms.TextBox txt2;
-        private System.Windows.Forms.TextBox txt3;
-        private System.Windows.Forms.TextBox txt4;
-        private System.Windows.Forms.TextBox txt5;
-        private System.Windows.Forms.TextBox txt6;
+        private System.Windows.Forms.TextBox txtColor;
+        private System.Windows.Forms.TextBox txtWord;
+        private System.Windows.Forms.TextBox txtBody;
+        private System.Windows.Forms.TextBox txtAnimal;
+        private System.Windows.Forms.TextBox txtNoun;
+        private System.Windows.Forms.TextBox txtPlural;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lblStoryBox;
-        private System.Windows.Forms.TextBox txt7;
+        private System.Windows.Forms.TextBox txtNumber;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -1,6 +1,6 @@
 ﻿namespace FixedDebugThree2
 {
-    partial class Form1
+    partial class GreetingForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,22 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.helloButton = new System.Windows.Forms.Button();
+            this.btnHello = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.outputLabel = new System.Windows.Forms.Label();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.lblOutput = new System.Windows.Forms.Label();
+            this.btnGoodbye = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // helloButton
+            // btnHello
             // 
-            this.helloButton.Location = new System.Drawing.Point(42, 122);
-            this.helloButton.Name = "helloButton";
-            this.helloButton.Size = new System.Drawing.Size(75, 23);
-            this.helloButton.TabIndex = 0;
-            this.helloButton.Text = "Hello";
-            this.helloButton.UseVisualStyleBackColor = true;
-            this.helloButton.Click += new System.EventHandler(this.helloButton_Click);
+            this.btnHello.Location = new System.Drawing.Point(42, 117);
+            this.btnHello.Name = "btnHello";
+            this.btnHello.Size = new System.Drawing.Size(75, 23);
+            this.btnHello.TabIndex = 0;
+            this.btnHello.Text = "Hello";
+            this.btnHello.UseVisualStyleBackColor = true;
+            this.btnHello.Click += new System.EventHandler(this.helloButton_Click);
             // 
             // label1
             // 
@@ -63,32 +64,43 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Enter your name: ";
             // 
-            // textBox1
+            // txtName
             // 
-            this.textBox1.Location = new System.Drawing.Point(148, 28);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(93, 20);
-            this.textBox1.TabIndex = 4;
+            this.txtName.Location = new System.Drawing.Point(148, 28);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(93, 20);
+            this.txtName.TabIndex = 4;
             // 
-            // outputLabel
+            // lblOutput
             // 
-            this.outputLabel.AutoSize = true;
-            this.outputLabel.Location = new System.Drawing.Point(75, 183);
-            this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(0, 13);
-            this.outputLabel.TabIndex = 5;
+            this.lblOutput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblOutput.Location = new System.Drawing.Point(66, 178);
+            this.lblOutput.Name = "lblOutput";
+            this.lblOutput.Size = new System.Drawing.Size(140, 27);
+            this.lblOutput.TabIndex = 5;
             // 
-            // Form1
+            // btnGoodbye
+            // 
+            this.btnGoodbye.Location = new System.Drawing.Point(148, 117);
+            this.btnGoodbye.Name = "btnGoodbye";
+            this.btnGoodbye.Size = new System.Drawing.Size(75, 23);
+            this.btnGoodbye.TabIndex = 6;
+            this.btnGoodbye.Text = "Goodbye";
+            this.btnGoodbye.UseVisualStyleBackColor = true;
+            this.btnGoodbye.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // GreetingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.outputLabel);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(284, 249);
+            this.Controls.Add(this.btnGoodbye);
+            this.Controls.Add(this.lblOutput);
+            this.Controls.Add(this.txtName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.helloButton);
-            this.Name = "Form1";
+            this.Controls.Add(this.btnHello);
+            this.Name = "GreetingForm";
             this.Text = "Two Greetings";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -97,11 +109,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button helloButton;
+        private System.Windows.Forms.Button btnHello;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label outputLabel;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label lblOutput;
+        private System.Windows.Forms.Button btnGoodbye;
     }
 }
 

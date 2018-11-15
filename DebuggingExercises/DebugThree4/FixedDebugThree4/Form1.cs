@@ -18,12 +18,13 @@ namespace FixedDebugThree4
 
         private void calculateButton_Click(object sender, EventArgs e)
         {
-            int birth;
-            int year;
-            birth = Convert.ToInt32(textBox1.Text);
-            year = Convert.ToInt32(textBox2.Text);
-            age = year + birth
-            outputLabel.Text = String.Format("On your birthday this year, \nyou were or will be " +
+            int birthYear;
+            int CurrentYear;
+            int age;
+            birthYear = Convert.ToInt32(textBox1.Text);
+            CurrentYear = Convert.ToInt32(textBox2.Text);
+            age = CurrentYear - birthYear;
+            lblOutput.Text = String.Format("On your birthday this year, \nyou were or will be " +
                 "{0} years old", age);
         }
     }

@@ -17,12 +17,13 @@ namespace FixedDebugThree3
         }
         // This declaration is in the correct place.
         // total is outside the method so it can remain a running total.
-        double total = 0;
+        
         private void totalButton_Click(object sender, EventArgs e)
         {
+            double total = 0;
             double num = Convert.ToDouble(textBox1);
             total = num;
-            outputLabel.Text = "Running total: ", total;
+            outputLabel.Text = "Running total: " + total;
         }
     }
 }

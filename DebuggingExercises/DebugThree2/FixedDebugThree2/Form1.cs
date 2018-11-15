@@ -9,21 +9,26 @@ using System.Windows.Forms;
 
 namespace FixedDebugThree2
 {
-    public partial class Form1 : Form
+    public partial class GreetingForm : Form
     {
-        public Form1()
+        public GreetingForm()
         {
             InitializeComponent();
         }
 
         private void helloButton_Click(object sender, EventArgs e)
         {
-            outputLabel = "Goodbye, " + textBox1.Text + "!";
+            lblOutput.Text = "Hello, " + txtName.Text + "!";
         }
 
         private void goodbyeButton_Click(object sender, EventArgs e)
         {
-            outputLabel = "Goodbye, " + textBox1.Text + "!";
+           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            lblOutput.Text = "Goodbye, " + txtName.Text + "!";
         }
     }
 }

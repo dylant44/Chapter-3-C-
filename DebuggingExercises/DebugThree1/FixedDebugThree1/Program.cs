@@ -15,7 +15,7 @@ namespace FixedDebugThree1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(true);
-            Application.Run(new Forml());
+            Application.Run(new MultiplyerForm());
         }
     }
 }

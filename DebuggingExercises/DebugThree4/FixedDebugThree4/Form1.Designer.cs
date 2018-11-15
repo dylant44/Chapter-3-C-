@@ -33,7 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.outputLabel = new System.Windows.Forms.Label();
+            this.lblOutput = new System.Windows.Forms.Label();
             this.calculateButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -78,13 +78,13 @@
             this.textBox2.Size = new System.Drawing.Size(69, 20);
             this.textBox2.TabIndex = 4;
             // 
-            // outputLabel
+            // lblOutput
             // 
-            this.outputLabel.AutoSize = true;
-            this.outputLabel.Location = new System.Drawing.Point(44, 191);
-            this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(0, 13);
-            this.outputLabel.TabIndex = 5;
+            this.lblOutput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblOutput.Location = new System.Drawing.Point(57, 193);
+            this.lblOutput.Name = "lblOutput";
+            this.lblOutput.Size = new System.Drawing.Size(178, 60);
+            this.lblOutput.TabIndex = 5;
             // 
             // calculateButton
             // 
@@ -102,7 +102,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
             this.Controls.Add(this.calculateButton);
-            this.Controls.Add(this.outputLabel);
+            this.Controls.Add(this.lblOutput);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
@@ -122,7 +122,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label outputLabel;
+        private System.Windows.Forms.Label lblOutput;
         private System.Windows.Forms.Button calculateButton;
     }
 }
